@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Apoie o EJC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonte moderna -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header>
+  <div class="header-container">
+    <div class="logo">
+      <img src="ejc.png" alt="Logo do Encontro de Jovens com Cristo">
+    </div>
+    
+    <h1>Apoie o EJC</h1>
+    <nav>
+      <ul>
+        <li><a href="index.php">Início</a></li>
+        <li><a href="sobre.php">Sobre</a></li>
+        <li><a href="#doacao">Apoie</a></li>
+        <li><a href="duvidas.php">Dúvidas</a></li>
+      </ul>
+    </nav>
+    <div class="social-icons">
+      <a href="https://wa.me/5511999999999" target="_blank" title="WhatsApp" aria-label="WhatsApp">
+        <img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo-whatsapp-512.png" alt="Ícone do WhatsApp" />
+      </a>
+      <a href="https://instagram.com" target="_blank" title="Instagram" aria-label="Instagram">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Ícone do Instagram" />
+      </a>
+    </div>
+  </div>
+</header>
+
+<section class="section fadeInUp">
+  <h2>Por que doar?</h2>
+  <p>
+    O Encontro de Jovens com Cristo (EJC) é uma experiência única que transforma corações.
+    Se você já participou, ajude outras pessoas a viverem o mesmo. Se ainda não participou, está convidado a fazer parte.
+    Com sua ajuda, poderemos proporcionar um final de semana inesquecível a dezenas de jovens.
+
+  </p>
+  <img src="BV.jpg" alt="Jovens unidos em oração">
+</section>
+
+<a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-float" title="Fale conosco no WhatsApp" aria-label="Botão WhatsApp">
+  <img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo-whatsapp-512.png" alt="Ícone WhatsApp flutuante" />
+</a>
+
+<section class="section fadeInUp">
+  <h2>Transparência e Compromisso</h2>
+  <p>Todo valor arrecadado será usado para cobrir alimentação, transporte, material de evangelização e estrutura do evento.</p>
+  <img src="bv2.jpg" alt="Ilustração de apoio ao evento do EJC">
+</section>
+
+<section class="section fadeInUp" id="doacao">
+  <h2>Formas de Apoiar</h2>
+  <div class="other-options">
+
+    <div class="option">
+      <img src="sorteio.png" />
+      <h3>Rifa Solidária</h3>
+      <p>Participe da nossa rifa solidária e concorra a prêmios incríveis, ajudando ainda mais a causa.</p>
+      <a href="rifa.php"><button class="botao-doar">Participe da Rifa</button></a>
+    </div>
+
+    <div class="option">
+      <img src="oracao.png" alt="Ícone de oração" />
+      <h3>Pedido de Oração</h3>
+      <p>Peça uma oração especial para você ou alguém querido. Estamos aqui para orar por você!</p>
+      <a href="oracao.php"><button class="botao-doar">Faça seu Pedido</button></a>
+    </div>
+
+    <div class="option">
+      <img src="aperto-de-mao.png" alt="Ícone de gratidão" />
+      <h3>Mural da Gratidão</h3>
+      <p>Deixe sua mensagem de gratidão ou testemunho de como o EJC impactou sua vida.</p>
+      <a href="mural.php"><button class="botao-doar">Acesse o Mural</button></a>
+    </div>
+
+    <div class="option">
+      <img src="apenas-a-dinheiro.png" alt="Ícone de doação via Pix" />
+      <h3>Contribua com qualquer valor</h3>
+      <p>Você também pode doar via Pix, transferência bancária ou presencialmente. Clique no botão abaixo para ver os detalhes:</p>
+      <a href="pix-doacao.php"><button class="botao-doar">💰 Quero Doar Agora</button></a>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>Com carinho, Grupo EJC ❤️ | © 2025</p>
+</footer>
+
+</body>
+</html>
